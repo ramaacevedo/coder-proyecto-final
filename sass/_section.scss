@@ -371,6 +371,7 @@ span.tacos--span {
 
     .hamburguesas--p{
         @extend .pastas--p;
+        padding: 40px;
     }
 
 }

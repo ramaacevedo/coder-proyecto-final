@@ -287,6 +287,10 @@ section article.tacos p.tacos--parraf {
   background-image: url(../img/Productos/hamburguesa23.jpg);
   background-position: center;
 }
+.hamburguesas .hamburguesas--p {
+  padding: 40px;
+}
+
 .cerdo {
   background-image: url(../img/Productos/cerdo.jpg);
   background-position: center;
