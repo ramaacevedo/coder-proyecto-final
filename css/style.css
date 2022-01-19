@@ -252,7 +252,6 @@ section article.tacos p.tacos--parraf {
 .pastas, .salmon, .cerdo, .hamburguesas {
   margin: 50px 25px 100px 25px;
   border-radius: 25px;
-  background-color: #f1f1f16c;
   box-shadow: 0 0 17px #444444;
   background-image: url(../img/Productos/pastas.jpg);
   background-repeat: no-repeat;
@@ -264,16 +263,12 @@ section article.tacos p.tacos--parraf {
 .pastas .pastas--span, .salmon .pastas--span, .salmon .salmon--span, .cerdo .pastas--span, .cerdo .cerdo--span, .hamburguesas .pastas--span, .hamburguesas .hamburguesas--span {
   font-weight: bold;
   font-size: 35px;
-  margin: 25px;
   margin-left: 0;
   color: #d8d8d8;
 }
 .pastas .pastas--p, .salmon .pastas--p, .salmon .salmon--p, .cerdo .pastas--p, .cerdo .cerdo--p, .hamburguesas .pastas--p, .hamburguesas .hamburguesas--p {
   padding: 50px;
   margin: 50px 30px;
-  display: table-cell;
-  vertical-align: middle;
-  background-color: rgba(128, 128, 128, 0.472);
   border-radius: 25px;
 }
 
@@ -284,13 +279,9 @@ section article.tacos p.tacos--parraf {
 }
 
 .hamburguesas {
-  background-image: url(../img/Productos/hamburguesa23.jpg);
+  background-image: url(../img/Productos/hamburguesa2.jpg);
   background-position: center;
 }
-.hamburguesas .hamburguesas--p {
-  padding: 40px;
-}
-
 .cerdo {
   background-image: url(../img/Productos/cerdo.jpg);
   background-position: center;
@@ -846,6 +837,18 @@ h5 {
     color: #000;
   }
 
+  .pastas .pastas--span, .hamburguesas .pastas--span, .cerdo .pastas--span, .salmon .pastas--span, .hamburguesas .hamburguesas--span, .cerdo .cerdo--span, .salmon .salmon--span {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 0;
+    color: #d8d8d8;
+  }
+  .pastas .pastas--p, .hamburguesas .pastas--p, .cerdo .pastas--p, .salmon .pastas--p, .hamburguesas .hamburguesas--p, .cerdo .cerdo--p, .salmon .salmon--p {
+    padding: 15px;
+    margin: 50px 30px;
+    border-radius: 25px;
+  }
+
   /* FORMULARIO */
   .container-form {
     background-color: #fea1006c;
@@ -1364,6 +1367,18 @@ h5 {
     color: #000;
   }
 
+  .pastas .pastas--span, .hamburguesas .pastas--span, .cerdo .pastas--span, .salmon .pastas--span, .hamburguesas .hamburguesas--span, .cerdo .cerdo--span, .salmon .salmon--span {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 0;
+    color: #d8d8d8;
+  }
+  .pastas .pastas--p, .hamburguesas .pastas--p, .cerdo .pastas--p, .salmon .pastas--p, .hamburguesas .hamburguesas--p, .cerdo .cerdo--p, .salmon .salmon--p {
+    padding: 15px;
+    margin: 50px 30px;
+    border-radius: 25px;
+  }
+
   /* FORMULARIO */
   .container-form {
     background-color: #fea1006c;
@@ -1879,6 +1894,18 @@ h5 {
     font-weight: 900;
     padding-bottom: 18px;
     color: #000;
+  }
+
+  .pastas .pastas--span, .hamburguesas .pastas--span, .cerdo .pastas--span, .salmon .pastas--span, .hamburguesas .hamburguesas--span, .cerdo .cerdo--span, .salmon .salmon--span {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 0;
+    color: #d8d8d8;
+  }
+  .pastas .pastas--p, .hamburguesas .pastas--p, .cerdo .pastas--p, .salmon .pastas--p, .hamburguesas .hamburguesas--p, .cerdo .cerdo--p, .salmon .salmon--p {
+    padding: 15px;
+    margin: 50px 30px;
+    border-radius: 25px;
   }
 
   /* FORMULARIO */

@@ -322,7 +322,6 @@ span.tacos--span {
 .pastas {
     margin: 50px 25px 100px 25px;
     border-radius: 25px;
-    background-color: #f1f1f16c;
     box-shadow: 0 0 17px $grey-col;
     background-image: url(../img/Productos/pastas.jpg);
     background-repeat: no-repeat;
@@ -331,11 +330,10 @@ span.tacos--span {
     color: #fff;
     text-shadow: 0 0 15px rgb(0, 0, 0);
 
-
     .pastas--span {
         font-weight: bold;
         font-size: 35px;
-        margin: 25px;
+        // margin: 25px;
         margin-left: 0;
         color: rgb(216, 216, 216);
     }
@@ -344,9 +342,6 @@ span.tacos--span {
     .pastas--p {
         padding: 50px;
         margin: 50px 30px;
-        display: table-cell;
-        vertical-align: middle;
-        background-color: rgba(128, 128, 128, 0.472);
         border-radius: 25px;
     }
 }
@@ -362,7 +357,7 @@ span.tacos--span {
 
 .hamburguesas{
     @extend .pastas;
-    background-image: url(../img/Productos/hamburguesa23.jpg);
+    background-image: url(../img/Productos/hamburguesa2.jpg);
     background-position:center;
 
     .hamburguesas--span{
@@ -371,7 +366,6 @@ span.tacos--span {
 
     .hamburguesas--p{
         @extend .pastas--p;
-        padding: 40px;
     }
 
 }
